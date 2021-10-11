@@ -45,7 +45,7 @@ static void outputEscape()
 
 	for (unsigned int i = 0; i < 256; i++) {
 		if (escapes[i].empty()) {
-			printf("\tNULL,\n");
+			printf("\tnullptr,\n");
 		} else {
 			printf("\t\"");
 
