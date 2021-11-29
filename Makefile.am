@@ -20,7 +20,7 @@ libunivalue_la_CXXFLAGS = -I$(top_srcdir)/include
 
 TESTS = test/object test/unitester test/no_nul
 
-GENBIN = gen/gen$(BUILD_EXEEXT)
+GENBIN = gen/gen$(EXEEXT)
 GEN_SRCS = gen/gen.cpp
 
 $(GENBIN): $(GEN_SRCS)
