@@ -6,13 +6,11 @@
 #ifndef __UNIVALUE_H__
 #define __UNIVALUE_H__
 
-#include <stdint.h>
-#include <string.h>
-
+#include <cstdint>
+#include <cstring>
+#include <map>
 #include <string>
 #include <vector>
-#include <map>
-#include <cassert>
 
 class UniValue {
 public:

@@ -2,11 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://opensource.org/licenses/mit-license.php.
 
-#include <string.h>
-#include <vector>
-#include <stdio.h>
-#include "univalue.h"
+#include <univalue.h>
 #include "univalue_utffilter.h"
+
+#include <cstdio>
+#include <cstdint>
+#include <cstring>
+#include <string>
+#include <vector>
 
 /*
  * According to stackexchange, the original json test suite wanted
